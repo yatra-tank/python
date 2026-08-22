@@ -1,0 +1,1 @@
+print("Welcome to Python") # this is a welcome message, this program will display a warming welcome

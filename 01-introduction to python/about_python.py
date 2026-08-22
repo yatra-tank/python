@@ -1,0 +1,1 @@
+print("Python is an easy to learn language for beginners") # Python is a high level language, that is human readable language, it is important for LLMs, AI/ML.
