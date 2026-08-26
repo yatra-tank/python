@@ -86,9 +86,13 @@ print("negative % positive: ", a % c)
 print("positive % negative: ", c % a)
 print("negative % negative: ", d % c)
 
-print("QUESTION11")
-a = Tru
-print("positive % positive: ", a % b)
-print("negative % positive: ", a % c)
-print("positive % negative: ", c % a)
-print("negative % negative: ", d % c)
+print("QUESTION13")
+a = True
+b = False
+print("addition: ", a+b)
+print("subtraction: ", a-b)
+print("multiplication: ", a*b)
+print("division: ", a/b)
+print("floor division: ", a//b)
+print("modulus: ", a%b)
+print("exponentiation: ", a**b)
