@@ -28,3 +28,7 @@ text = "I like Java"
 new_text = text.replace("Java", "Python")
 print(new_text)
 print(text)
+print("------------")
+a = "Hello Python"
+b = "pytHon"
+print(b.lower() in a.lower())
