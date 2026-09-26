@@ -1,7 +1,3 @@
-digit = 0
-underscore = 0
-special = 0
-
 for i in range(5):
     s = input("Enter a username: ").strip()
 
