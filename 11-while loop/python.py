@@ -17,3 +17,13 @@
 #         print(i, end=" ")
 #     i += 1
 
+# while True:
+#     n = input("more records? 'y': ")
+#     if n == 'y':
+#         a = input("enter the product name:")
+#         b = int(input("enter the price: "))
+#         c = int(input("enter the quantity: "))
+
+#         print(f"The total price of {a} is {b * c}")
+#     else:
+#         break
