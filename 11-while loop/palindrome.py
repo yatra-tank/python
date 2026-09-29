@@ -17,12 +17,17 @@ while True:
     s = input("Enter a string: ")
     i = 0
     j = len(s) - 1
+    flag = True
 
     while i < j:
         if s[i] == s[j]:
             i += 1
             j -= 1
-            print("palindrome")
+            print("Palindrome")
             break
         else:
+            flag = False
             print("Not a palindrome")
+            break
+    if flag == True:
+        break
