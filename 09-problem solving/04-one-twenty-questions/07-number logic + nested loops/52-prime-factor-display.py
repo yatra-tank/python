@@ -2,8 +2,17 @@
 n = int(input("Enter a number: "))
 
 for i in range(2, n + 1):
-    print(i, "->", end= " ")
+    count = 0
+
     for j in range(1, i + 1):
-        if i%j == 0:
-            print(j, end= " ")
-    print()
+        if i % j == 0:
+            count += 1
+
+    if count == 2:
+        print(i, "->", end=" ")
+
+        for j in range(1, i + 1):
+            if i % j == 0:
+                print(j, end=" ")
+
+        print()
