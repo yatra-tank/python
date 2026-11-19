@@ -1,16 +1,24 @@
-a = 10
-b = 20
-c = 40
-d = 50
+# a = 10
+# b = 20
+# c = 40
+# d = 50
 
-def add(a, b):
-    c = a + b
-    return c
+# def add(a, b):
+#     c = a + b
+#     return c
 
-def sub(a, b):
-    return a - b
+# def sub(a, b):
+#     return a - b
 
-def floor_division(a, b):
-    return a // b
+# def floor_division(a, b):
+#     return a // b
 
-print(floor_division(sub(add(a, b), c), d))
+# print(floor_division(sub(add(a, b), c), d))
+
+i = 0
+
+while i <= -10:
+    name = "Yatra"
+    i -= 1
+
+print(name)
