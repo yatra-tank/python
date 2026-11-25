@@ -1,0 +1,1 @@
+# Without running the code, write the value returned by mystery(4) and show the return calculation.
